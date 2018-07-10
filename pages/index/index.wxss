@@ -1,0 +1,53 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.in-search{
+  width: 680rpx;
+  height: 70rpx;
+  border-radius: 35rpx; 
+  text-align: center;
+  background-color: #f9f3db;
+  font-size: 32rpx;
+  /* margin-bottom: 20rpx; */
+}
+.slide-image{
+  width:100%;
+  overflow: hidden;
+}
+.carsousel{
+  padding: 20rpx 0;
+  border-bottom: 20rpx solid #f9f3db;
+}
+.intropic {
+width:260rpx;
+height:60rpx;
+font-size: 40rpx;
+line-height: 60rpx;
+}
+.wire{
+width:80rpx;
+height:1rpx;
+background-color:black;
+float:left;
+margin-top: 30rpx;
+}
+

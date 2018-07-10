@@ -1,0 +1,24 @@
+<view class="centeral">
+  <input type='text' placeholder='搜索' class='in-search'/>
+</view>
+<!--轮播图  -->
+<view class='carsousel'>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!--展示  -->
+<view>
+  <view class="centeral">
+    <view class='intropic '>
+      <text class="wire"></text>
+      <text class='left'>动态</text>
+      <text class="wire"></text>
+    </view>
+  </view>
+</view>
